@@ -223,7 +223,7 @@ function App() {
               {
                 title: "Twitter-News-Bot",
                 description: "A Telegram bot that fetches news articles, allows an admin to approve or reject them, and posts approved articles to X (formerly Twitter).",
-                image: "https://images.unsplash.com/photo-1551808525-51a94da548ce?auto=format&fit=crop&w=800&q=80",
+                image: "https://realpython.com/cdn-cgi/image/width=960,format=auto/https://files.realpython.com/media/How-to-Make-a-Twitter-Bot-in-Python-with-Tweepy_Watermarked.e0e3b3e8f6ce.jpg",
                 tech: ["API Security", "Automation", "Programming"],
                 demo: "",
                 github: "https://github.com/pragnesh-singh-rajput/Twitter-News-Bot"
@@ -231,7 +231,7 @@ function App() {
               {
                 title: "AWS Rekognition",
                 description: "This repository contains Python scripts to use AWS Rekognition for detecting objects in images 🖼️ and faces in videos 🎥, displaying results with bounding boxes 🟦, and storing face detection results in a pandas DataFrame 📊.",
-                image: "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&w=800&q=80",
+                image: "https://www.awsgeek.com/Amazon-Rekognition/Amazon-Rekognition.jpg",
                 tech: ["AI/ML", "Cloud Computing", "Computer Vision"],
                 demo: "",
                 github: "https://github.com/pragnesh-singh-rajput/image-and-video-rekognition-with-aws"
