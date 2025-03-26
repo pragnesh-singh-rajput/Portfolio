@@ -170,13 +170,7 @@ function App() {
               viewport={{ once: true }}
             >
               <p className="text-lg text-gray-300 mb-6">
-                With over a decade of experience in cybersecurity, I specialize in protecting
-                organizations from evolving digital threats. My expertise spans across network
-                security, penetration testing, and security architecture design.
-              </p>
-              <p className="text-lg text-gray-300 mb-6">
-                I hold advanced certifications in cybersecurity and regularly contribute to
-                the security community through research and speaking engagements.
+                A cybersecurity expert is a digital guardian, standing at the frontline of the ever-evolving battlefield of cyber threats. With a sharp eye for vulnerabilities and a deep understanding of network defense, they work tirelessly to secure systems, detect intrusions, and thwart malicious attacks. Whether analyzing forensic evidence, strengthening firewalls, or conducting ethical hacking to expose weaknesses, their role is critical in protecting sensitive data and ensuring the integrity of digital landscapes. In a world where cyber threats grow more sophisticated by the day, cybersecurity experts are the unsung heroes keeping businesses, governments, and individuals safe from digital chaos.
               </p>
             </motion.div>
           </div>
@@ -219,28 +213,28 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "SecureNet Framework",
-                description: "Enterprise-grade security framework implementing zero-trust architecture and advanced threat detection.",
+                title: "Sharenrypt",
+                description: "This project demonstrates how to establish reliable peer-to-peer connections without WebRTC, using a custom relay server approach.",
                 image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
-                tech: ["Zero Trust", "AI/ML", "Threat Detection"],
-                demo: "https://demo.example.com",
-                github: "https://github.com"
+                tech: ["Zero Trust", "Encryption", "Security"],
+                demo: "",
+                github: "https://github.com/pragnesh-singh-rajput/Sharenrypt-p2p-file-sharing"
               },
               {
-                title: "CyberGuard Pro",
-                description: "Automated security assessment tool for cloud infrastructure with real-time vulnerability scanning.",
+                title: "Twitter-News-Bot",
+                description: "A Telegram bot that fetches news articles, allows an admin to approve or reject them, and posts approved articles to X (formerly Twitter).",
                 image: "https://images.unsplash.com/photo-1551808525-51a94da548ce?auto=format&fit=crop&w=800&q=80",
-                tech: ["Cloud Security", "Automation", "DevSecOps"],
-                demo: "https://demo.example.com",
-                github: "https://github.com"
+                tech: ["API Security", "Automation", "Programming"],
+                demo: "",
+                github: "https://github.com/pragnesh-singh-rajput/Twitter-News-Bot"
               },
               {
-                title: "BlockGuard",
-                description: "Blockchain security analysis platform for smart contract auditing and vulnerability detection.",
+                title: "AWS Rekognition",
+                description: "This repository contains Python scripts to use AWS Rekognition for detecting objects in images 🖼️ and faces in videos 🎥, displaying results with bounding boxes 🟦, and storing face detection results in a pandas DataFrame 📊.",
                 image: "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&w=800&q=80",
-                tech: ["Blockchain", "Smart Contracts", "Security Auditing"],
-                demo: "https://demo.example.com",
-                github: "https://github.com"
+                tech: ["AI/ML", "Cloud Computing", "Computer Vision"],
+                demo: "",
+                github: "https://github.com/pragnesh-singh-rajput/image-and-video-rekognition-with-aws"
               }
             ].map((project, index) => (
               <motion.div
@@ -315,33 +309,33 @@ function App() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-4">
                   <Mail className="w-6 h-6 text-neon-blue" />
-                  <a href="mailto:email@example.com" className="text-gray-300 hover:text-neon-blue transition-colors">
-                    email@example.com
+                  <a href="mailto:singhpragnesh89@gmail.com" className="text-gray-300 hover:text-neon-blue transition-colors">
+                    singhpragnesh89@gmail.com.com
                   </a>
                 </div>
                 <div className="flex items-center space-x-4">
                   <Phone className="w-6 h-6 text-neon-blue" />
-                  <a href="tel:+1234567890" className="text-gray-300 hover:text-neon-blue transition-colors">
-                    +1 (234) 567-890
+                  <a href="tel:+916355736986" className="text-gray-300 hover:text-neon-blue transition-colors">
+                    +91 6355736986
                   </a>
                 </div>
                 <div className="flex items-center space-x-4">
                   <MapPin className="w-6 h-6 text-neon-blue" />
-                  <span className="text-gray-300">San Francisco, CA</span>
+                  <span className="text-gray-300">Gujarat, India</span>
                 </div>
               </div>
               <div className="flex space-x-6 pt-6">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+                <a href="https://github.com/pragnesh-singh-rajput" target="_blank" rel="noopener noreferrer" 
                    className="text-gray-400 hover:text-neon-blue transition-colors"
                    title="GitHub">
                   <Github size={24} />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+                <a href="https://linkedin.com/in/pragnesh-singh-rajput" target="_blank" rel="noopener noreferrer"
                    className="text-gray-400 hover:text-neon-blue transition-colors"
                    title="LinkedIn">
                   <Linkedin size={24} />
                 </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                <a href="https://instagram.com/pragnesh_singh_rajput" target="_blank" rel="noopener noreferrer"
                    className="text-gray-400 hover:text-neon-blue transition-colors"
                    title="Instagram">
                   <Instagram size={24} />
