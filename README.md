@@ -1,6 +1,7 @@
 # 🚀 Pragnesh Kumar Singh - Portfolio
 
-Welcome to my professional portfolio! This project showcases my expertise in cybersecurity, development, and digital security solutions.
+Welcome to my professional portfolio! This project showcases my expertise in cybersecurity, development, and digital security solutions. 
+[Preview Here](https://pragnesh-singh-rajput.netlify.app/)
 
 ## 🌟 Features
 
@@ -172,10 +173,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- Website: [your-website.com](https://your-website.com)
-- Email: email@example.com
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourusername)
-- GitHub: [Your GitHub](https://github.com/yourusername)
+- Website: [Portfolio](https://pragnesh-singh-rajput.netlify.app/)
+- Email: [singhpragnesh89@gmail.com](mailto:singhpragnesh89@gmail.com)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/pragnesh-singh-rajput)
+- GitHub: [GitHub](https://github.com/pragnesh-singh-rajput)
 
 ## 🙏 Acknowledgments
 
