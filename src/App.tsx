@@ -215,7 +215,7 @@ function App() {
               {
                 title: "Sharenrypt",
                 description: "This project demonstrates how to establish reliable peer-to-peer connections without WebRTC, using a custom relay server approach.",
-                image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80",
+                image: "https://www.divshare.com/wp-content/uploads/2024/12/P2P-File-Sharing-.jpeg",
                 tech: ["Zero Trust", "Encryption", "Security"],
                 demo: "",
                 github: "https://github.com/pragnesh-singh-rajput/Sharenrypt-p2p-file-sharing"
