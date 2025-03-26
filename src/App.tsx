@@ -170,7 +170,10 @@ function App() {
               viewport={{ once: true }}
             >
               <p className="text-lg text-gray-300 mb-6">
-                A cybersecurity expert is a digital guardian, standing at the frontline of the ever-evolving battlefield of cyber threats. With a sharp eye for vulnerabilities and a deep understanding of network defense, they work tirelessly to secure systems, detect intrusions, and thwart malicious attacks. Whether analyzing forensic evidence, strengthening firewalls, or conducting ethical hacking to expose weaknesses, their role is critical in protecting sensitive data and ensuring the integrity of digital landscapes. In a world where cyber threats grow more sophisticated by the day, cybersecurity experts are the unsung heroes keeping businesses, governments, and individuals safe from digital chaos.
+                I am a dedicated Cybersecurity expert with a strong passion for protecting digital assets and securing critical infrastructures. With hands-on experience in Security Operations, Digital Forensics, Vulnerability Assessment, and Penetration Testing, I specialize in identifying threats, mitigating risks, and fortifying systems against cyber attacks. My expertise extends to ethical hacking, incident response, and proactive threat hunting to ensure robust security defenses.
+              </p>
+              <p className="text-lg text-gray-300 mb-6">
+                Constantly evolving with the latest cybersecurity trends and technologies, I am committed to safeguarding organizations from ever-evolving cyber threats while promoting a security-first mindset.
               </p>
             </motion.div>
           </div>
