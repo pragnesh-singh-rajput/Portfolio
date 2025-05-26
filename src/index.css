@@ -1,0 +1,371 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 20% 4%;
+    --foreground: 210 40% 98%;
+
+    --card: 210 20% 6%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 210 20% 6%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 193 100% 50%;
+    --primary-foreground: 210 40% 2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 220 100% 60%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 193 100% 50%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+    cursor: none; /* Hide default cursor */
+  }
+
+  body {
+    @apply bg-slate-950 text-foreground;
+    font-family: 'Orbitron', 'Roboto Mono', monospace;
+    overflow-x: hidden;
+    background: 
+      radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(99, 102, 241, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 40% 80%, rgba(16, 185, 129, 0.05) 0%, transparent 50%),
+      #020617;
+  }
+}
+
+@layer components {
+  .professional-border {
+    border: 1px solid rgba(59, 130, 246, 0.3);
+    background: rgba(2, 6, 23, 0.8);
+    border-radius: 0.75rem;
+    backdrop-filter: blur(20px);
+    box-shadow: 
+      0 4px 6px -1px rgba(0, 0, 0, 0.4),
+      0 2px 4px -1px rgba(0, 0, 0, 0.3),
+      inset 0 1px 0 rgba(59, 130, 246, 0.1),
+      0 0 20px rgba(59, 130, 246, 0.05);
+  }
+
+  .subtle-glow {
+    box-shadow: 
+      0 0 30px rgba(59, 130, 246, 0.1),
+      0 8px 32px rgba(0, 0, 0, 0.15),
+      inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  }
+
+  .tech-grid {
+    background-image: 
+      linear-gradient(rgba(59, 130, 246, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(59, 130, 246, 0.05) 1px, transparent 1px);
+    background-size: 50px 50px;
+    animation: grid-move 20s linear infinite;
+  }
+
+  /* Enhanced scroll animations */
+  .scroll-fade-in {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .scroll-fade-in.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .scroll-slide-up {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .scroll-slide-up.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .scroll-slide-left {
+    opacity: 0;
+    transform: translateX(-60px);
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .scroll-slide-left.animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .scroll-slide-right {
+    opacity: 0;
+    transform: translateX(60px);
+    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .scroll-slide-right.animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .scroll-scale-in {
+    opacity: 0;
+    transform: scale(0.8) translateY(30px);
+    transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .scroll-scale-in.animate {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+
+  .scroll-rotate-in {
+    opacity: 0;
+    transform: rotate(10deg) scale(0.9);
+    transition: all 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .scroll-rotate-in.animate {
+    opacity: 1;
+    transform: rotate(0deg) scale(1);
+  }
+
+  .fade-in {
+    animation: fadeIn 1s ease-out forwards;
+  }
+
+  .slide-up {
+    animation: slideUp 1.2s ease-out forwards;
+  }
+
+  .stagger-animation {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: staggerIn 0.8s ease-out forwards;
+  }
+
+  .float-animation {
+    animation: float 8s ease-in-out infinite;
+  }
+
+  .pulse-glow {
+    animation: pulseGlow 4s ease-in-out infinite;
+  }
+
+  .hover-lift {
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 
+      0 20px 40px rgba(59, 130, 246, 0.15),
+      0 8px 16px rgba(0, 0, 0, 0.3),
+      inset 0 1px 0 rgba(59, 130, 246, 0.2);
+  }
+
+  .cyber-text {
+    text-shadow: 
+      0 0 5px rgba(59, 130, 246, 0.5),
+      0 0 10px rgba(59, 130, 246, 0.3),
+      0 0 15px rgba(59, 130, 246, 0.2);
+  }
+
+  .hologram-effect {
+    background: linear-gradient(
+      45deg,
+      transparent 30%,
+      rgba(59, 130, 246, 0.1) 50%,
+      transparent 70%
+    );
+    background-size: 200% 200%;
+    animation: hologram-scan 3s ease-in-out infinite;
+  }
+
+  /* Fixed loading screen animations */
+  @keyframes scan-line-move {
+    0% { 
+      transform: translateX(-100vw); 
+      opacity: 0; 
+    }
+    10% { 
+      opacity: 1; 
+    }
+    90% { 
+      opacity: 1; 
+    }
+    100% { 
+      transform: translateX(100vw); 
+      opacity: 0; 
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(60px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes staggerIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+
+  @keyframes pulseGlow {
+    0%, 100% {
+      box-shadow: 
+        0 0 20px rgba(59, 130, 246, 0.1),
+        inset 0 1px 0 rgba(59, 130, 246, 0.1);
+    }
+    50% {
+      box-shadow: 
+        0 0 40px rgba(59, 130, 246, 0.2),
+        0 0 60px rgba(59, 130, 246, 0.1),
+        inset 0 1px 0 rgba(59, 130, 246, 0.2);
+    }
+  }
+
+  @keyframes grid-move {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+
+  @keyframes hologram-scan {
+    0%, 100% {
+      background-position: -200% -200%;
+    }
+    50% {
+      background-position: 200% 200%;
+    }
+  }
+
+  .gradient-text {
+    background: linear-gradient(135deg, #3b82f6, #6366f1, #8b5cf6, #06b6d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-size: 200% 200%;
+    animation: gradient-shift 3s ease-in-out infinite;
+  }
+
+  @keyframes gradient-shift {
+    0%, 100% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+  }
+
+  .card-hover {
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card-hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.1), transparent);
+    transition: left 0.5s;
+  }
+
+  .card-hover:hover::before {
+    left: 100%;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-12px) rotateX(5deg);
+    box-shadow: 
+      0 25px 50px rgba(59, 130, 246, 0.2),
+      0 0 0 1px rgba(59, 130, 246, 0.2),
+      inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+
+  .neural-network {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .neural-network::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+      radial-gradient(circle at 20% 20%, rgba(59, 130, 246, 0.1) 1px, transparent 1px),
+      radial-gradient(circle at 80% 80%, rgba(99, 102, 241, 0.1) 1px, transparent 1px),
+      radial-gradient(circle at 40% 60%, rgba(16, 185, 129, 0.05) 1px, transparent 1px);
+    background-size: 100px 100px, 150px 150px, 200px 200px;
+    animation: neural-pulse 6s ease-in-out infinite;
+    pointer-events: none;
+  }
+
+  @keyframes neural-pulse {
+    0%, 100% {
+      opacity: 0.3;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.6;
+      transform: scale(1.05);
+    }
+  }
+}
