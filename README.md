@@ -1,73 +1,121 @@
-# Welcome to your Lovable project
+# ⚡ PragneshKumar S. Singh – Cybersecurity Portfolio
 
-## Project info
+> _"I break things to make them safer."_  
+> 🕶️ Ethical Hacker | 🧠 Digital Forensics Nerd | 🛡️ SOC Warrior  
 
-**URL**: https://lovable.dev/projects/b18ad0d2-a779-4c79-852e-72ef913dce0a
+[🌐 View Live Portfolio](https://pragneshsingh.works)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Overview
 
-**Use Lovable**
+Welcome to the source code of my **cyber-themed portfolio website**, a meticulously crafted digital fortress showcasing my expertise, experiences, and journey through the world of **Cybersecurity**.  
+Built with performance, minimalism, and elegance in mind — this site reflects my hacker roots and my vision for a secure digital world.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b18ad0d2-a779-4c79-852e-72ef913dce0a) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 👨‍💻 About Me
 
-**Use your preferred IDE**
+Hi, I'm **PragneshKumar S. Singh**, a cybersecurity practitioner with a deep passion for ethical hacking, reverse engineering, and cyber defense.  
+I love poking around systems, finding flaws, and fortifying them. Currently focused on:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- 🔎 Security Operations (SOC Level 1 & 2)
+- 🧬 Digital Forensics & Incident Response
+- 🔓 Vulnerability Assessment & Penetration Testing
+- 🕵️‍♂️ Reverse Engineering & Malware Analysis
+- 💬 Cold Outreach, Recruiting Data Tools, and more…
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠️ Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+This portfolio is built with modern tools that align with speed, accessibility, and developer joy.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+| Layer | Tech |
+|------|------|
+| **Frontend** | TypeScript, React, TailwindCSS, Framer Motion |
+| **Backend** | Supabase (Edge Functions), Resend API |
+| **Styling** | Tailwind CSS, SCSS |
+| **Build Tool** | Vite |
+| **CI/CD** | GitHub Actions (Planned) |
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 📁 Project Structure
+
+```bash
+.
+├── public/             # Static assets
+├── src/                
+│   ├── components/     # Reusable React components
+│   ├── pages/          # Page definitions (Home, Contact, etc.)
+│   ├── styles/         # Custom styling
+│   ├── lib/            # Utility functions (e.g., email, API hooks)
+├── supabase/           # Supabase Edge Functions
+├── .env                # Environment variables
+├── vite.config.ts      # Vite configuration
+└── tsconfig.json       # TypeScript configuration
+````
+
+---
+
+## 💌 Contact Form & Email Flow
+
+The contact form is powered by **Supabase Edge Functions** and integrated with **Resend API** to send thank-you emails.
+📧 Domain Used: `pragneshsingh.works`
+✅ Domain is verified via Resend for trusted delivery.
+
+---
+
+## 🧪 Local Development
+
+Wanna run it locally and explore?
+
+```bash
+# Clone the repo
+git clone https://github.com/pragnesh-singh-rajput/Portfolio.git
+cd Portfolio
+
+# Install dependencies
+npm install
+
+# Start the dev server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+> 🔐 Make sure you configure your `.env` with Supabase and Resend API keys for full functionality.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📦 Deployment
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+This site is deployed on **Vercel** with auto-redeploy on push to `main`.
 
-## What technologies are used for this project?
+```bash
+# Preview locally before deploying
+npm run build
+npm run preview
+```
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📬 Connect With Me
 
-## How can I deploy this project?
+* 🌐 [pragneshsingh.works](https://pragneshsingh.works)
+* 🔗 [LinkedIn](https://www.linkedin.com/in/pragnesh-singh-rajput)
+* 💻 [GitHub](https://github.com/pragnesh-singh-rajput)
+* ✉️ [singhpragnesh89@gmail.com](mailto:singhpragnesh89@gmail.com)
 
-Simply open [Lovable](https://lovable.dev/projects/b18ad0d2-a779-4c79-852e-72ef913dce0a) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 📄 License
 
-Yes, you can!
+This project is licensed under the **MIT License**.
+Feel free to fork, clone, and vibe with it — but give credit where it's due. 🤝
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+> *"Code like a hacker. Defend like a soldier. Think like a criminal."*
+> – PragneshKumar S. Singh
+
+```
