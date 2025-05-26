@@ -62,7 +62,7 @@ This portfolio is built with modern tools that align with speed, accessibility, 
 ## 💌 Contact Form & Email Flow
 
 The contact form is powered by **Supabase Edge Functions** and integrated with **Resend API** to send thank-you emails.
-📧 Domain Used: `pragneshsingh.works`
+📧 Domain Used: `pragneshsingh.works`.
 ✅ Domain is verified via Resend for trusted delivery.
 
 ---
@@ -118,4 +118,3 @@ Feel free to fork, clone, and vibe with it — but give credit where it's due. �
 > *"Code like a hacker. Defend like a soldier. Think like a criminal."*
 > – PragneshKumar S. Singh
 
-```
