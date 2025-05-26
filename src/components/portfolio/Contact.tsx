@@ -265,7 +265,7 @@ export const Contact = () => {
           <div className="border-t border-slate-800 pt-8">
             <div className="professional-border p-6 inline-block">
               <p className="text-slate-400 font-medium">
-                © 2024 SHIV • Cybersecurity Professional
+                © 2025 PragneshKumar Singh • Cybersecurity Professional
               </p>
               <p className="text-tech-blue text-sm mt-2">
                 "Building secure digital futures, one line of code at a time"
