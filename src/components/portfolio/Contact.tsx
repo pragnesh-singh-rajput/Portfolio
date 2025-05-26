@@ -138,19 +138,19 @@ export const Contact = () => {
                 <div className="mt-8 pt-6 border-t border-slate-700">
                   <div className="flex gap-4">
                     <a
-                      href="https://github.com/shiv-cybersec"
+                      href="https://github.com/pragnesh-singh-rajput"
                       className="w-12 h-12 bg-slate-800 border border-slate-700 rounded-lg flex items-center justify-center hover:border-tech-blue hover:text-tech-blue transition-all duration-300 hover-lift"
                     >
                       <Github className="w-5 h-5" />
                     </a>
                     <a
-                      href="https://linkedin.com/in/shiv-cybersec"
+                      href="https://linkedin.com/in/pragnesh-singh-rajput"
                       className="w-12 h-12 bg-slate-800 border border-slate-700 rounded-lg flex items-center justify-center hover:border-tech-indigo hover:text-tech-indigo transition-all duration-300 hover-lift"
                     >
                       <Linkedin className="w-5 h-5" />
                     </a>
                     <a
-                      href="mailto:shiv@cybersec.dev"
+                      href="mailto:singhpragnesh89@gmail.com"
                       className="w-12 h-12 bg-slate-800 border border-slate-700 rounded-lg flex items-center justify-center hover:border-tech-emerald hover:text-tech-emerald transition-all duration-300 hover-lift"
                     >
                       <Mail className="w-5 h-5" />
