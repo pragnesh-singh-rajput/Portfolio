@@ -107,7 +107,7 @@ export const Contact = () => {
                     </div>
                     <div>
                       <h4 className="text-white font-medium mb-1">Email</h4>
-                      <p className="text-slate-400">shiv@cybersec.dev</p>
+                      <p className="text-slate-400">singhpragnesh89@gmail.com</p>
                       <p className="text-xs text-tech-blue">Response within 24 hours</p>
                     </div>
                   </div>
@@ -118,7 +118,7 @@ export const Contact = () => {
                     </div>
                     <div>
                       <h4 className="text-white font-medium mb-1">Location</h4>
-                      <p className="text-slate-400">Available for remote collaboration</p>
+                      <p className="text-slate-400">Gujarat, India</p>
                       <p className="text-xs text-tech-indigo">Global timezone flexibility</p>
                     </div>
                   </div>
@@ -129,7 +129,7 @@ export const Contact = () => {
                     </div>
                     <div>
                       <h4 className="text-white font-medium mb-1">Availability</h4>
-                      <p className="text-slate-400">UTC+5:30 (IST)</p>
+                      <p className="text-slate-400">On-Site | Remote</p>
                       <p className="text-xs text-tech-emerald">Open to new opportunities</p>
                     </div>
                   </div>
