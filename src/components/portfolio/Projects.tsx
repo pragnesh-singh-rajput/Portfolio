@@ -203,10 +203,10 @@ export const Projects = () => {
         </div>
 
         <div className={`mt-16 text-center transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`} style={{ animationDelay: '1.2s' }}>
-          <a href="https://github.com/pragnesh-singh-rajput" target="_blank" rel="noopener noreferrer" className="professional-border px-8 py-4 text-tech-blue hover:text-white hover:bg-tech-blue/10 transition-all duration-300 font-medium hover-lift group">
+          <a href="https://github.com/pragnesh-singh-rajput/" target="_blank" rel="noopener noreferrer" className="inline-block professional-border px-8 py-4 text-tech-blue hover:text-white hover:bg-tech-blue/10 transition-all duration-300 font-medium hover-lift group">
             <span className="flex items-center gap-2">
               View All Projects
-              <ExternalLink className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </span>
           </a>
         </div>
